@@ -1,5 +1,6 @@
 <div class='image-viewer'>
-  <a href='{{ include.full_image | absolute_url }}'>
-    <img class='item-full-image' src='{{ include.full_image | absolute_url }}' alt='{{ page.label | escape }}'/>
+  <p>{{ include.full_image }}</p>
+  <a href='{{ include.full_image }}'>
+    <img class='item-full-image' src='{{ include.full_image }}' alt='{{ include.description }}'/>
   </a>
 </div>

@@ -1,48 +1,53 @@
 ---
 layout: page
-title: What is Wax?
+title: About the Sabato Morais Ledger
 permalink: /about/
 ---
 
-**Wax helps you create digital exhibits.**   
-A digital exhibit is a collection of curated cultural artifacts—manuscripts, paintings, photographs, sculptures, etc—often accompanied by an explicit narrative or argument. Though Wax focuses on images and text, it could be used for sound or video collections with some customization.
 
-**Wax is an extensible workflow based on minimal computing principles.**  
-Wax is hyper-aware of differences in resources, control and access around the world and close to home. As a result, it is purposefully lightweight: a few Ruby gems, some customizable UI components, good documentation and (hopefully soon!) recipes for creating, deploying, and maintaining custom digital exhibitions.
+The Marvin Weiner Catalogue of the Sabato Morais Ledger
+In memory of ISRAEL WEINER, an unsung hero,
+and to AMERICA, who allowed him and millions like him
+to live in a land of FREEDOM and OPPORTUNITY .
 
-**The exhibition sites created by Wax are static.**  
-This means they consist of flat HTML, CSS, and JavaScript files that don't need to communicate in a complex way back to a server. This makes them cheaper, safer, and generally easier to maintain.
+"Give us your tired, your poor,
+Your huddled masses yearning to breathe free,
+The wretched refuse of your teeming shore.
+Send these, the homeless, tempest-tost, to me,
+I lift my lamp beside the golden door!"
 
-**The skills needed to create Wax sites are agnostic.**  
-This means they are largely transferable for use in other digital projects. 'Learning Wax' does not mean learning how to use a platform. It involves learning the fundamentals of web development, data management, and [plain text editing](https://zapier.com/blog/beginner-ultimate-guide-markdown/) while leveraging a few great open source libraries and frameworks along the way.
-
-**Wax keeps the collection presentation separate from the collection data.**  
-The Wax workflow starts with making standardized image files and metadata records and builds around them, handling canonical information, scholarly content, and site styling differently and deliberately. This makes it easier for you or others to share, reuse and reimagine your collection data in other contexts.
-
-## Who is Wax for?
-
-Wax was created for individuals and groups who either don't have or don't want to use a lot of resources to create their scholarly or cultural exhibits. It's best suited for folks who are willing to take on some technical responsibility in exchange for a lot of flexibility.
-
-For beginners, Wax has a relatively high, but general-purpose learning curve. To get the most out of Wax, you should have some familiarity with:
-
-- Using an interactive shell (e.g., Bash/Terminal) to install and interact with programs, files, and directories on your local computer.
-- Using Git and GitHub to version control and collaborate on projects.
-- Using Jekyll to generate static sites.
-- Creating and normalizing data files (e.g., CSV, JSON, YAML)
-- Using file-naming conventions and best practices.
-- Editing HTML, CSS, and some JavaScript.
-
-**However, Wax is also great for teaching or learning the skills above!** For examples of digital pedagogy via the creation of Wax exhibitions, check out [this workshop](https://www.columbia.edu/content/events/introduction-minimal-computing-humanities-building-exhibit-primary-sources-using-wax), [this GitHub repository](https://github.com/stylerevolution/stylerevolution.github.io), and [this custom Wax site](https://stylerevolution.github.io/).
-
-**Wax is also phenomenal for professionals who play a facilitating role**, such as Digital Scholarship Librarians or Coordinators. With some practice, Wax substantially reduces the time to production and post-production maintenance costs for you and your team. In the most common scenario, students, faculty, colleagues or any other collaborators just have to provide you with a properly formatted spreadsheet and the text for the exhibits. The extras are up to you.
+-- Emma Lazarus, "New Colossus" (1883),
+engraved on a tablet at the Statue of Liberty National Monument
 
 
-## So what does the Wax workflow *look like?*
 
-Below is a diagram to give you a zoomed-out view. In summary, you create a file of metadata records for your collection (in CSV, YAML, or JSON format), organize your collection image files, and put both in the Jekyll site folder. After updating your configuration, you run a few command line tasks to prepare the data and metadata for use by the Jekyll site. Jekyll then uses special layouts and Wax components to build the exhibit and spits them out as static pages ready to publish.
+In 1947, Prof. Moshe Davis published a selected and annotated bibliography of the writings of Sabato Morais. The bibliography appeared on the fiftieth anniversary of Morais' death. Davis used the occasion to declare the need for a volume about this founder of the Jewish Theological Seminary "a desideratum in American Jewish History." The bibliography Davis painstakingly compiled was clearly intended as a first step towards realizing this goal. Davis' effort was complicated by the fact, as he put it at the time, that "except for the volume on Italian Hebrew Literature, edited by Dr. Julius H. Greenstone [New York: Jewish Theological Seminary of America, 1926], the works of Morais were never assembled." Davis' bibliography appeared prior to the heroic efforts undertaken by Jacob Rader Marcus to microfilm all extant American Jewish periodicals (which ultimately led to the creation of the American Jewish Periodicals Center in Cincinnati). The publications by Morais which Davis was able to locate, thus, relied on the scattered print sources and preliminary bibliographies to which he gained access and on information and sources found in Morais' own personal papers collection, primarily housed at Dropsie College in Philadelphia. Davis located, catalogued, enumerated and annotated 185 publications, followed by a supplement of 49 additional articles by Morais or tributes about him at the time of his death in 1897 [Davis also surveyed the unpublished documents found in the Morais Collection housed at Dropsie College].
 
-From there, you can run tests on your site to catch errors and decide where and how to put it online or in offline media.
+In the course of his research, Davis discovered a note in the files of Dr. Cyrus Adler, who served concurrently from 1915 until his death in 1940 as the president of Dropsie College and the Jewish Theological Seminary of America. Morais had tutored Adler as a child, and it had been Adler's hope to complete a biography of his teacher. His various duties, regrettably, never left him time to complete the project. Davis reported that Adler had at his disposal "a huge ledger with a carefully written table of contents in which [Morais] posted all the newspaper clippings of his sermons and articles, literary or controversial." By 1947, when Davis published his project, the ledger had disappeared. Pondering the historical loss, Davis observed that "from the few jottings we have seen in Morais' handwriting on his texts, we can only begin to surmise how much valuable information has been lost."
 
-<a href="{{ '/img/wax_workflow.jpg' | absolute_url }}">
-  <img src="{{ '/img/wax_workflow.jpg' | absolute_url }}"/>
-</a>
+Sometime during the early 1950s, Marvin Weiner, a Philadelphia area business man and collector of early Americana, was browsing "Sam Kleinman's Schuykill Book Shop," a "junk store," then located at the corner of Lancaster and Belmont in West Philadelphia. Weiner found there a ledger-sized volume filled with clippings by Sabato Morais. Realizing its significance, Weiner purchased the scrapbook and thus saved one of the most remarkable documentary treasures of American Jewish history.
+
+The Sabato Morais Ledger, as it is now known, belonged to the leading representative of enlightened Orthodox Judaism in 19th century America. Morais was born in Livorno, in the Italian duchy of Tuscany in 1823. He was the descendant of Portuguese Conversos who returned to Judaism during the seventeenth century. Morais was a proud advocate of the Sephardic heritage as a model for creating what he called "a regenerated Judaism" on the "virgin soil" of America. Morais possessed a vivid historical imagination and a devout appreciation of the need to preserve Judaism. He relentlessly stressed the need to observe historical practices and taught the Jewish doctrines transmitted to him as a child and as a rabbinical student in Livorno. He also grew up during a period of revolutionary change. Both his father and grandfather were freemasons and actively involved in the Risorgimento, the movement to bring national unity and independence to the Italian peninsula. Morais received a traditional Sephardic religious education in Livorno but was also exposed from childhood to radical republican activism. After leaving Livorno for London in 1846 to seek employment at an Orphan School attached to the Spanish and Portuguese Congregation at Bevis Marks, Morais was befriended by many of the Italian emigre intellectuals, including Giuseppe Mazzini, perhaps the leading voice of the Italian cause. Morais, thus, brought to Philadelphia from Europe a distinct set of ideas about religion and politics. He devoted the remaining four decades of his life, beginning in 1851, espousing and defending his version of enlightened rabbinic Judaism. The scrapbook he kept is a unique record of the path he charted, the time through which he lived, and the highly charged controversies in which he became embroiled.
+
+{% include parallax_image.html collection='qatar' pid='obj12' y='50%' %}
+
+The national significance of this unique treasure is clearly evident, both in terms of its scope and content. Its 831 items of newspaper clippings, pamphlets, circulars and typescripts cover almost every major public event, political debate and theological controversy of that era. These items also reveal in a hitherto unknown way the fundamental role Morais played as founder of the Jewish Theological Seminary. In short, the Scrapbook alters the familiar picture of 19th century American Jewry as "German" and Reform in its orientation. It shows how Morais disseminated his traditional Sephardic religious worldview to a national audience through the medium of both the Jewish and especially the non-Jewish press. It contains rarely consulted or otherwise unknown primary sources that in turn bring into focus the religious humanist sources drawn upon by this Italian-born American Jewish leader.
+
+{% include parallax_image.html collection='qatar' pid='obj12' y='50%' %}
+
+The most significant fact about the scrapbook is that it contains hundreds of articles Morais published anonymously or pseudonymously [see for example, item ##003, which Morais published under the pseudonym "Veritas."]. Davis, consequently, when compiling his bibliography did not have access to the full scope of Morais' output, particularly in the non-Jewish press. Morais' authorship of these anonymous or pseudonymously published pieces is evident by the fact that either he (or occasionally his son Henry, after his father's death) affixed his signature to these clippings. Moreover, as Davis suspected, Morais' copious handwritten marginal annotatations offer a window into his private reflections and views on such matters as the American Civil War, Capital Punishment, the creation of a uniform, abbreviated American Jewish prayer service, his differences with Isaac Mayer Wise, the leader of the American Jewish Reform movement, his reactions to Christian missionaries, ethnic intolerance, mass migration, as well as his negative attitude towards political Zionism. The Scrapbook also contains the only extant fragments, clipped from the short-lived Philadelphia newspaper, the Jewish Index, of Morais' translations of Italian Jewish literature (the first English translations ever made) for an American audience. The Scrapbook is particularly valuable, thus, as a convenient research tool. It provides in one central location easy access to hundreds of disparate, lost or otherwise unknown articles, sermons, public addresses, essays and translations.
+
+{% include parallax_image.html collection='qatar' pid='obj12' y='50%' %}
+
+Since discovering the Scrapbook in the early 1950s, Weiner carved out enough free time over the subsequent four decades to catalogue assiduously on to index cards the items in the ledger. He did this while attending to his professional and family commitments and philanthropic service on the boards of a number of Philadelphia cultural institutions. On each index card, Weiner identified the work pasted in the ledger and provided a transcription of Morais' handwritten annotations. He also compared the Ledger's contents with Davis' bibliography and noted each item Davis had not listed. To supplement the catalogue of the contents of the ledger and to provide better access to it, Weiner created a register of the newspapers represented in the ledger. The register consisted of an alphabetically arranged list of each newspaper title and the date of each issue from which an article had been clipped.
+
+Mr. Weiner later joined the board of the Dropsie College of Hebrew and Cognate Learning. Dropsie College, founded in Philadelphia in 1907, was the first institution in the world to be accredited to confer PhDs in Jewish Studies. With the rise of Jewish Studies within the setting of the American University system, Dropsie College, an independent institution, began a steady decline. Marvin Weiner joined the board at a critical time in its history. The College's endowment was depleted, its support from the organized Jewish community waning, its physical surrounding in a state of disrepair, and its library the victim of a number of thefts and losses (such as the Morais Scrapbook!), Mr. Weiner assumed the chairmanship of the Library committee and devoted himself to the cause of restoring the library. To this end, he purchased or donated a number of important works, including the missing first volume of the Bomberg rabbinic Bible printed in Venice between 1521 and 1524, for which he successfully bid at an auction in New York City.
+
+In 1992, Weiner donated the Morais Ledger to the Annenberg Research Institute, a post-graduate think-tank for the comparative study of the monotheistic religious traditions, and the successor institution to Dropsie College. In the course of a grant project to organizes the Institute's archives, including Sabato Morais' personal papers, it came to Weiner's attention that the scrapbook originally formed part of the Morais collection at Dropsie. Shortly thereafter, Weiner donated the Ledger on the condition that it forever be maintained as part of the Sabato Morais Collection.
+
+In 1997, Mr. Weiner commissioned Dr. Leslie DeLauter, then working at the University of Pennsylvania Rare Book and Manuscript Library, to type his index card catalogue into a computer. A tally was soon made and it was discovered that of the 771 articles Weiner catalogued, 595 did not appear in Davis' bibliography. Not every article found there was unknown, however. Many of the articles constituted the original printing of Morais' publications in the non-Jewish press, which later were re-printed and circulated in the Jewish press from which Davis mainly based his compilation. The great difference in number also reflected the fact that Davis grouped serialized publications under one item number, whereas Mr.Weiner itemized every article, including serialized publications, individually. Still, the scope of Morais' output is remarkable if only because it has been unknown to scholars of American Jewish history until recently.
+
+The typing of the catalogue was the first step towards its publication. The final steps of editing, proof-reading and formatting the Catalogue were undertaken by Ms. Gina Glasman, a doctoral student at Columbia University, and Ms. Etty Lassman, a Research Assistant for the Fellowship program at the Center for Advanced Judaic Studies at the University of Pennsylvnia. Ms. Glasman served as editor of the project and undertook to compare the catalogue with the contents of the Ledger, establish a uniform entry format, and created a name and subject index. Ms Lassman completed the project, overseeing the proof-reading and layout for the final product. Both worked tirelessly and diligently to help realize the dream of Moshe Davis and to ensure for posterity the story and priceless contributions of Marvin Weiner.
+
+---
+

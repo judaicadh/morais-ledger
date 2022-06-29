@@ -2,16 +2,20 @@
 layout: page
 show_title: false
 banner:
-  collection: qatar
+  collection: morais_ledger
   pid: obj10
   y: 25%
   height: '500px'
 ---
 
-__Wax__ is a [minimal computing](http://go-dh.github.io/mincomp/) project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our [documentation](https://minicomp.github.io/wiki/#/wax/) for installation instructions and more.
+**Learn** about Sabato Morais' personal scrapbook of newspaper clippings, pamphlets, circulars, and typescripts that he collected during his lifetime (1823-1897). 
 
-The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of [WikiMedia](https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar) and [Google Art Project](https://www.google.com/culturalinstitute/about/artproject/)) and The Qatar National Library (via [World Digital Library](https://www.wdl.org/en/)).
+**Browse** the more than 500 pages of the ledger. 
+
+**Search** the ledger using the alphabetical index or by entering keywords. 
+
+**Credit** contributors to this site. 
 
 ### Browse the Collection
 
-{% include collection_gallery.html facet_by='object_type' collection='qatar' %}
+{% include collection_gallery.html facet_by='publication' collection='morais_ledger' %}
