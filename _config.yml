@@ -20,8 +20,8 @@
 
 title:            "The Sabato Morais Ledger"
 description:      "This ledger belonged to Sabato Morais, a Sephardic Jewish leader, Hebraist, poet, historian, lecturer, and teacher."
-url:              'https://judaciadh.github.io'
-baseurl:          '/morais-ledger'
+url:              'https://judaciadh.github.io/morais-ledger'
+baseurl:          ''
 copyright:        'University of Pennsylvania Libraries, 2022'
 logo:             '/assets/logo.png'
 
