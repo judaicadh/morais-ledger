@@ -18,4 +18,4 @@ banner:
 
 ### Browse the Collection
 
-{% include collection_gallery.html facet_by='publication' collection='morais_ledger' %}
+{% include collection_gallery.html facet_by='year' collection='morais_ledger' %}
