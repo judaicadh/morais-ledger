@@ -8,10 +8,10 @@ banner:
   height: '500px'
 ---
 
-[**Learn**](/about) about Sabato Morais' personal scrapbook of newspaper clippings, pamphlets, circulars, and typescripts that he collected during his lifetime (1823-1897). 
+[**Learn**]("{{ '/about' | absolute_url }}") about Sabato Morais' personal scrapbook of newspaper clippings, pamphlets, circulars, and typescripts that he collected during his lifetime (1823-1897). 
 
-[**Browse**](/browse) the more than 500 pages of the ledger. 
+[**Browse**]("{{ 'morais-ledger/obj1' | absolute_url }}") the more than 500 pages of the ledger. 
 
-[**Search**](/search) the ledger using the alphabetical index or by entering keywords. 
+[**Search**]("{{ '/search' | absolute_url }}") the ledger using the alphabetical index or by entering keywords. 
 
-[**Credit**](/credits) contributors to this site. 
+[**Credit**]("{{ '/credits' | absolute_url }}") contributors to this site. 
