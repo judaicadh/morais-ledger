@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{%- capture fields -%}
+  {%- for collection in config.collections -%}
+    {%- for field in collection[1].fields -%}
+      {{ field }}{% unless forloop.last %}|||{% endunless %}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{% assign fields = fields | split: '|||' | uniq %}
+
+<h3 alt="{{ page.label | escape }}" class='item-label'>Indexed as {{ page.label }}:</h3>
+
+<div class="results">
+{% assign relevant = site.morais-ledger | where_exp:"item", "item.index_terms contains page.label" %}
+<p>Displaying {{ relevant.size }} results</p>
+{% for post in relevant %}
+<p>
+<span class="title"><a href="{{ post.url | relative_url }}">{{ post.label }}</a></span>
+<br>
+<span class="meta">
+<b>publication</b>: {{ post.publication }} | <b>location</b>: {{ post.location }} | <b>full_date</b>: {{ post.full_date }} | <b>month_day</b>: {{ post.month_day }} | <b>volume_notes</b>: {{ post.volume_notes }} | <b>year</b>: {{ post.year }} | <b>index_terms</b>: {{ post.index-terms }} ...
+</span>
+</p>
+{% endfor %}
+</div>
+<hr>

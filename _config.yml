@@ -20,8 +20,8 @@
 
 title:            "The Sabato Morais Ledger"
 description:      "This ledger belonged to Sabato Morais, a Sephardic Jewish leader, Hebraist, poet, historian, lecturer, and teacher."
-url:              'https://judaciadh.github.io/morais-ledger'
-baseurl:          ''
+url:              https://judaicdh.github.io
+baseurl:          /morais-ledger
 copyright:        'University of Pennsylvania Libraries, 2022'
 logo:             '/assets/logo.png'
 
@@ -65,11 +65,18 @@ kramdown:
 collections:
   exhibits:
     output: true
-  morais_ledger: # name of collection
+  morais-ledger: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'qatar_item' # the layout for the pages to use
     metadata:
-      source: 'morais_ledger.csv' # path to the metadata file within `_data`
+      source: 'morais-ledger.csv' # path to the metadata file within `_data`
+    images:
+      source:  # path to the directory of images within `_data`
+  index-headings: # name of collection
+    output: true # makes sure pages are output as html files
+    layout: 'generic_index_term' # the layout for the pages to use
+    metadata:
+      source: 'term_pids.csv' # path to the metadata file within `_data`
     images:
       source:  # path to the directory of images within `_data`
 
@@ -85,10 +92,10 @@ search:
   main:
     index: '/search/index.json' # file the index will get written to
     collections:
-      morais_ledger:
+      morais-ledger:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
-          - description
+          - label
           - publication
           - location
           - full_date
@@ -96,6 +103,10 @@ search:
           - volume-notes
           - year
           - index_terms
+        index-headings:
+          content: false # whether or not to index page content
+          fields: # the metadata fields to index
+          - label            
 
 
 # --------------------------------------------------------------
@@ -110,16 +121,16 @@ menu:
     sub:
       - label: 'The Ledger'
         link: '/about/'
+      - label: 'Data'
+        link: '/data/'
       - label: 'Credits'
         link: '/credits/'
   - label: 'Browse'
-    link: '/browse/'
+    link: '/morais-ledger/obj1'
   - label: 'Search'
     link: '/search/'
   - label: 'Index'
-    link: '/index-terms/'
-  - label: 'Reuse'
-    link: '/reuse/'
+    link: '/ledger-index/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS

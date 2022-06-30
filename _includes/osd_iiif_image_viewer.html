@@ -1,25 +1,24 @@
 <div id="osd" class="image-viewer"></div>
 <script defer src="{{ '/assets/openseadragon/openseadragon.min.js' | absolute_url }}"></script>
-
 <script>
-  $(document).ready(function () {
-    var manifestUrl = "{{ include.manifest }}";
-    $.getJSON(manifestUrl, function(data) {
-      var tileSources = [];
-      $.each(data.sequences[0].canvases, function(_k, val) {
-        tileSources.push({
-          tileSource: val.images[0].resource.service['@id'] + '/info.json',
-          referenceStripThumbnailUrl: val.thumbnail
-        });
+  $(document).ready(function() {
+      var manifestUrl = "{{ include.manifest_indiv }}";
+      $.getJSON(manifestUrl, function(data) {
+          var tileSources = [{
+              tileSource: "{{ include.manifest_indiv }}" + '/info.json',
+              referenceStripThumbnailUrl: "{{ include.thumb }}"
+          }];
       });
       OpenSeadragon({
-        id: "osd",
-        preload: true,
-        sequenceMode: true,
-        prefixUrl: "{{ '/assets/openseadragon/images/' | absolute_url }}",
-        tileSources: tileSources,
-        showReferenceStrip: true,
+          id: "osd",
+          preload: true,
+          sequenceMode: true,
+          prefixUrl: "{{ '/assets/openseadragon/images/' | absolute_url }}",
+          tileSources: [{
+              tileSource: "{{ include.manifest_indiv }}" + '/info.json',
+              referenceStripThumbnailUrl: "{{ include.thumb }}"
+          }],
+          showReferenceStrip: true,
       });
-    });
   });
 </script>

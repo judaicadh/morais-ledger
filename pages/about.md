@@ -5,20 +5,20 @@ permalink: /about/
 ---
 
 
-The Marvin Weiner Catalogue of the Sabato Morais Ledger
-In memory of ISRAEL WEINER, an unsung hero,
-and to AMERICA, who allowed him and millions like him
-to live in a land of FREEDOM and OPPORTUNITY .
+*The Marvin Weiner Catalogue of the Sabato Morais Ledger*
 
-"Give us your tired, your poor,
-Your huddled masses yearning to breathe free,
-The wretched refuse of your teeming shore.
-Send these, the homeless, tempest-tost, to me,
-I lift my lamp beside the golden door!"
+*In memory of ISRAEL WEINER, an unsung hero,*
+*and to AMERICA, who allowed him and millions like him*
+*to live in a land of FREEDOM and OPPORTUNITY.*
 
--- Emma Lazarus, "New Colossus" (1883),
-engraved on a tablet at the Statue of Liberty National Monument
+> "Give us your tired, your poor,
+> Your huddled masses yearning to breathe free,
+> The wretched refuse of your teeming shore.
+> Send these, the homeless, tempest-tost, to me,
+> I lift my lamp beside the golden door!"
 
+> -- Emma Lazarus, "New Colossus" (1883),
+> engraved on a tablet at the Statue of Liberty National Monument
 
 
 In 1947, Prof. Moshe Davis published a selected and annotated bibliography of the writings of Sabato Morais. The bibliography appeared on the fiftieth anniversary of Morais' death. Davis used the occasion to declare the need for a volume about this founder of the Jewish Theological Seminary "a desideratum in American Jewish History." The bibliography Davis painstakingly compiled was clearly intended as a first step towards realizing this goal. Davis' effort was complicated by the fact, as he put it at the time, that "except for the volume on Italian Hebrew Literature, edited by Dr. Julius H. Greenstone [New York: Jewish Theological Seminary of America, 1926], the works of Morais were never assembled." Davis' bibliography appeared prior to the heroic efforts undertaken by Jacob Rader Marcus to microfilm all extant American Jewish periodicals (which ultimately led to the creation of the American Jewish Periodicals Center in Cincinnati). The publications by Morais which Davis was able to locate, thus, relied on the scattered print sources and preliminary bibliographies to which he gained access and on information and sources found in Morais' own personal papers collection, primarily housed at Dropsie College in Philadelphia. Davis located, catalogued, enumerated and annotated 185 publications, followed by a supplement of 49 additional articles by Morais or tributes about him at the time of his death in 1897 [Davis also surveyed the unpublished documents found in the Morais Collection housed at Dropsie College].
