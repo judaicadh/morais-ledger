@@ -1,131 +1,23 @@
-# minicomp/wax 🐝
+# The Sabato Morais Ledger
+Learn about Sabato Morais' personal scrapbook of newspaper clippings, pamphlets, circulars, and typescripts that he collected during his lifetime (1823-1897).
 
-[![Gem Version](https://badge.fury.io/rb/wax_theme.svg)](https://badge.fury.io/rb/wax_tasks)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![CI:Test](https://github.com/minicomp/wax/workflows/ci:test/badge.svg)](https://github.com/minicomp/wax/actions?query=workflow%3Aci%3Atest)
-[![Depfu](https://badges.depfu.com/badges/9d4da973f2cd2680c11ca34738c2dfb2/overview.svg)](https://depfu.com/github/minicomp/wax?project_id=10550)
-[![Gem Downloads](https://img.shields.io/gem/dt/wax_theme.svg?color=046d0b)](https://badge.fury.io/rb/wax_theme)
-[![Join the chat the minicomp-wax channel of the Code4Lib Slack](https://img.shields.io/badge/Slack-%23minicomp--wax-brightgreen.svg)](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1)
-![License](https://img.shields.io/github/license/minicomp/wax_tasks.svg?color=c6a1e0)
+## About the Project (completed May 2017)
+The Sabato Morais Ledger, as it is now known, belonged to the leading representative of enlightened Orthodox Judaism in 19th century America. Morais was born in Livorno, in the Italian duchy of Tuscany in 1823. He was the descendant of Portuguese Conversos who returned to Judaism during the seventeenth century. Morais was a proud advocate of the Sephardic heritage as a model for creating what he called "a regenerated Judaism" on the "virgin soil" of America. Morais possessed a vivid historical imagination and a devout appreciation of the need to preserve Judaism. He relentlessly stressed the need to observe historical practices and taught the Jewish doctrines transmitted to him as a child and as a rabbinical student in Livorno. He also grew up during a period of revolutionary change. Both his father and grandfather were freemasons and actively involved in the Risorgimento, the movement to bring national unity and independence to the Italian peninsula. Morais received a traditional Sephardic religious education in Livorno but was also exposed from childhood to radical republican activism. After leaving Livorno for London in 1846 to seek employment at an Orphan School attached to the Spanish and Portuguese Congregation at Bevis Marks, Morais was befriended by many of the Italian emigre intellectuals, including Giuseppe Mazzini, perhaps the leading voice of the Italian cause. Morais, thus, brought to Philadelphia from Europe a distinct set of ideas about religion and politics. He devoted the remaining four decades of his life, beginning in 1851, espousing and defending his version of enlightened rabbinic Judaism. The scrapbook he kept is a unique record of the path he charted, the time through which he lived, and the highly charged controversies in which he became embroiled.
 
+The national significance of this unique treasure is clearly evident, both in terms of its scope and content. Its 831 items of newspaper clippings, pamphlets, circulars and typescripts cover almost every major public event, political debate and theological controversy of that era. These items also reveal in a hitherto unknown way the fundamental role Morais played as founder of the Jewish Theological Seminary. In short, the Scrapbook alters the familiar picture of 19th century American Jewry as "German" and Reform in its orientation. It shows how Morais disseminated his traditional Sephardic religious worldview to a national audience through the medium of both the Jewish and especially the non-Jewish press. It contains rarely consulted or otherwise unknown primary sources that in turn bring into focus the religious humanist sources drawn upon by this Italian-born American Jewish leader.
 
+### Partners
+- Marvin Weiner (C'38)
+- Herbert Weiner
+- Sheila Weiner
+- Jesselson Family Foundation
+- Kaplan Family Foundation
+- The National Foundation for Jewish Culture
+- Leslie Delauter
+- Gina Glasman
+- Michael Overgaard
+- Arthur Kiron
+- Emily Esten
 
-
-
-__Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles.__<br>
-It's comprised of: __a few Ruby gems__ for processing image data and associated metadata ([wax_tasks](https://github.com/minicomp/wax_tasks/), [wax_iiif](https://github.com/minicomp/wax_iiif/)), __a Jekyll theme__ ([wax_theme](https://github.com/minicomp/wax/)), and (hopefully soon!) a lot of __documentation and recipes__ for creating, deploying, and maintaining digital exhibitions.
-
-
-- [Prerequisites](#Prerequisites)
-- [Getting Started](#Getting-Started)
-- [Using Docker](#Using-Docker)
-- [Contributing](#Contributing)
-
-<br>
-
-<a href="https://minicomp.github.io/wax/">
-  <img src="https://raw.githubusercontent.com/minicomp/wiki/main/src/assets/wax_screen.gif?raw=true"/>
-</a>
-
-<br>
-
-# Prerequisites
-
-
-You'll need `git` and `ruby >= 2.4` with `bundler` installed.
-These dependencies can either be installed natively on your system or within a [Docker environment](#Using-Docker). For instructions, check the Wiki's [Setting up your system page](https://minicomp.github.io/wiki/wax/setting-up-your-system/).
-
-Check your versions with:
-
-```sh
-ruby -v
-```
-
-``` sh
-bundler -v
-```
-
-To process images, you will also need to have ImageMagick and Ghostscript installed and functional. You can check to see if you have ImageMagick by running:
-
-```sh
-convert -version
-```
-
-... and check Ghostscript with:
-``` sh
-gs -version
-```
-
-Vips will soon replace ImageMagick for Wax's image processing. If you're ahead of the curve, you can check your version with
-
-``` sh
-vips -version
-```
-
-# Getting Started
-
-__There are a few ways to get started with Wax, depending on your needs.__ Copyin the demo template is suggested for new users so you can see how a full Wax site would work. __Advanced Jekyllers__ can start from a clean Jekyll install. To start with the demo:
-
-1. Log into your [GitHub account](https://github.com/). (Or sign up if you don't have one!)
-
-2. Head to the [Wax demo page](https://github.com/) and click **"Use this Template"** button. It will prompt you to create a copy of the repository in your own account. You should name it after the collection or exhibition you'll make, since this name will inform your free URL for the project with GitHub. For this example, our repository is called **"my-wax-site"**.
-
-3. On your own, new Wax repository page, click the Green **"Code"** button and copy the URL it provides to your clipboard, e.g,
-  ```sh
-  git@github.com:mnyrop/my-wax-site.git
-  ```
-
-4. Open your Terminal/Shell application and change directory into where you'd like to work on your project, e.g., your Desktop:
-  ```sh
-  cd ~/Desktop
-  ```
-
-5. Run the `git clone` command plus the link you copied on your clipboard in one line, e.g.,
-  ```sh
-  git clone git@github.com:mnyrop/my-wax-site.git
-  ```
-
-6. When the clone is complete, change directory into your newly cloned project folder, in our case:
-  ```sh
-  cd my-wax-site
-  ```
-
-7. Install the project-specific Ruby dependencies by running the command
-  ```sh
-  bundle install
-  ```
-
-8. Run the demo site:
-  ```sh
-  bundle exec jekyll serve
-  ```
-
-After the last step, the terminal will provide you with a localhost URL for you to see your local copy of the site on your browser. This is the template site you will make changes to in order to make your own exhibition. For more, check out the [Minicomp/Wax Wiki](https://minicomp.github.io/wiki/wax/).
-
-
-# Using Docker
-
-To use Wax in a container, make sure you are familiar with Docker and have [Docker installed](https://docs.docker.com/get-docker/).
-
-Run the "Getting Started" steps 1-6 above to copy and `cd` into the repo.  
-
-Next, build the `minicomp/wax` base image:
-```
-docker build -t minicomp/wax .
-```
-
-You will run all of the Wax tasks and commands within an interactive bash container, which you can create and access by running:
-```
-docker run -it --rm -v "$PWD":/wax --name wax -p 4000:4000 minicomp/wax bash
-```
-
-To serve the site, you can run the following command in the guest container and view it in your host browser:
-```
-bundle exec jekyll serve --host 0.0.0.0
-```
-
-You can exit the container at any time with `$ exit`, which will automatically stop and remove the container.
-
-# Contributing
-
-We welcome contributions to Wax, including bug reports and feature requests (submitted as [Issues](https://github.com/minicomp/wax/issues)), code contributions (submitted as [Pull Requests](https://github.com/minicomp/wax/pulls)), and documentation updates (submitted however!) Not sure where to start? Feel free to get in touch via [GitHub issue](https://github.com/minicomp/wax/issues) or grab an invite to join the conversation on the `#minicomp-wax` channel of the [Code4Lib Slack](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1).
+# This is a Judaica Digital Humanities at the Penn Libraries repository.
+Judaica Digital Humanities at the <a href="http://library.upenn.edu">Penn Libraries</a> (also referred to as Judaica DH) is a robust program of projects and tools for experimental digital scholarship with Judaica collections, informed by digital humanities, Jewish studies, and cultural heritage approaches. Visit our [website](https://judaicadh.library.upenn.edu/).

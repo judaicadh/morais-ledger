@@ -10,8 +10,8 @@ $logo: url("{{ '/assets/logo.png' | absolute_url }}");
 
 /* text */
 
-$body-font:       'Open Sans', 'sans-serif';
-$heading-font:    'Open Sans', 'sans-serif';
+$body-font:       'EB Garamond', 'serif';
+$heading-font:    'Roboto', 'sans-serif';
 
 
 /* Image Size */
@@ -21,11 +21,11 @@ $thumbnail-width: 140px;
 
 /* colors */
 
-$text-color:      #100c01;
-$bg-color:        #ffffff;
-$neutral:         #eae7de;
-$accent-light:    #966d09;
-$accent-dark:     #644906;
+$text-color:      #333333;
+$bg-color:        #F7F7F7;
+$neutral:         #CCCCCC
+$accent-light:    #990000;
+$accent-dark:     #011F5B;
 
 /* viewport sizes */
 
@@ -49,3 +49,9 @@ font & asset import
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&font-display=auto');
 @import 'wax';
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap');
+</style>
