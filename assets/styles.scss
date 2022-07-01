@@ -23,9 +23,9 @@ $thumbnail-width: 140px;
 
 $text-color:      #333333;
 $bg-color:        #F7F7F7;
-$neutral:         #CCCCCC
-$accent-light:    #990000;
-$accent-dark:     #011F5B;
+$neutral:         #CCCCCC;
+$accent-light:    #011F5B;
+$accent-dark:     #990000;
 
 /* viewport sizes */
 
@@ -49,9 +49,5 @@ font & asset import
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&font-display=auto');
 @import 'wax';
-<style>
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-</style>
-<style>
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap');
-</style>
