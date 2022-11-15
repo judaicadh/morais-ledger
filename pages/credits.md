@@ -23,8 +23,9 @@ For the Site Migration and Redesign:
 - **Emily Esten**: Project Manager
 - **Mitch Fraas**:
 - **Dennis Mullen**:
+- **Andy Janco**:
 
 ## Credit for the Site
-The content for this site was migrated from Dennis Mullen's [original site](https://urldefense.com/v3/__https:/web.archive.org/web/*/http:/sceti.library.upenn.edu/morais/__;Kg!!IBzWLUs!VW82lLSscoWq3BZ8Gv17GFUeuxGAup-Hdsw_NCbEoW4XuLclL008WWmyquLicPKbT2PZLQtLP62mNUsLwBc$) created for the Sabato Morais Digitization Project. (Miss the old site? It’s [still available](http://sceti.library.upenn.edu/morais/) for now; please let us know what you miss about it that you can’t do in the new site.)
+The content for this site was migrated from Dennis Mullen's [original site](https://web.archive.org/web/20220000000000*/http:/sceti.library.upenn.edu/morais/) created for the Sabato Morais Digitization Project. Thank you for Emily Esten's work designing and building the new Morais Ledger site. (Miss the old site? It’s [still available](http://sceti.library.upenn.edu/morais/) for now; please let us know what you miss about it that you can’t do in the new site.)
 
 The Sabato Morais Ledger site is built using Wax. Wax is a minimal computing ([minicomp](https://github.com/minicomp)) project led by [Marii Nyröp](http://marii.info/). The project is currently maintained by Marii Nyröp at New York University and [Alex Gil](https://github.com/elotroalex) at Columbia University Libraries. It uses open source libraries and frameworks including [Jekyll](https://jekyllrb.com), [IIIF](http://iiif.io), [OpenSeaDragon](https://openseadragon.github.io/), [Rake](https://ruby.github.io/rake/), and [ElasticLunr](http://elasticlunr.com/). Wax builds upon work by [Peter Binkley](https://github.com/pbinkley), [David Newbury](https://github.com/workergnome), and others.
