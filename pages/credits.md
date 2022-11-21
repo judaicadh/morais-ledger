@@ -17,6 +17,8 @@ For the Sabato Morais Digitization Project
 - **Leslie Delauter**: Typist
 - **Gina Glasman**: Editor and Indexer
 - **Michael Overgaard**: Project Manager
+- **Dennis Mullen**:
+- **Mitch Fraas**:
 
 For the Site Migration and Redesign: 
 - **Arthur Kiron**: Project Director
