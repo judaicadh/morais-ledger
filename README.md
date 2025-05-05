@@ -18,6 +18,7 @@ The national significance of this unique treasure is clearly evident, both in te
 - Michael Overgaard
 - Arthur Kiron
 - Emily Esten
+- Laura Newman Eckstein
 
 # This is a Judaica Digital Humanities at the Penn Libraries repository.
 Judaica Digital Humanities at the <a href="http://library.upenn.edu">Penn Libraries</a> (also referred to as Judaica DH) is a robust program of projects and tools for experimental digital scholarship with Judaica collections, informed by digital humanities, Jewish studies, and cultural heritage approaches. Visit our [website](https://judaicadh.library.upenn.edu/).
