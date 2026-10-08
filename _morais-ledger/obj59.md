@@ -3,17 +3,19 @@ pid: obj59
 label: The P[rotestant] E[piscopal] Association. Letter to the Editors].
 publication: The Age
 location: Philadelphia
-full_date: " January 28, 1871"
+full_date: January 28, 1871
 month_day: 28-Jan
 volume-notes:
 year: '1871'
-full: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7560939--360c368882fa7f336679644393a4350a66bf7a17416dbe65fc53c5efea48dccf.jpeg/full/3500,/0/default.jpg
-thumb: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7560939--360c368882fa7f336679644393a4350a66bf7a17416dbe65fc53c5efea48dccf.jpeg/full/!200,200/0/default.jpg
+full: https://iiif-images.library.upenn.edu/iiif/2/b2c78fd5-d4fb-4347-8cfa-bada482c7829/full/3500,/0/default.jpg
+thumb: https://iiif-images.library.upenn.edu/iiif/2/b2c78fd5-d4fb-4347-8cfa-bada482c7829/full/!200,200/0/default.jpg
 index_terms: Christian evangelism|Protestant Episcopal Association
 toc: '73'
-manifest_all: https://colenda.library.upenn.edu/phalt/iiif/2/81431-p35d8nw83/manifest
-manifest_indiv: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7560939--360c368882fa7f336679644393a4350a66bf7a17416dbe65fc53c5efea48dccf.jpeg
+manifest_all: https://digitalrepository.library.upenn.edu/iiif/2/items/dc71c7fc-63d6-40e0-908e-ba8930064eba/manifest
+manifest_indiv: https://iiif-images.library.upenn.edu/iiif/2/b2c78fd5-d4fb-4347-8cfa-bada482c7829
 order: '058'
 layout: qatar_item
 collection: morais-ledger
+pepper's pages: '45'
+pepper's links: https://iiif-images.library.upenn.edu/iiif/3/b2c78fd5-d4fb-4347-8cfa-bada482c7829/info.json
 ---

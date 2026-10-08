@@ -1,24 +1,26 @@
+{% if include.manifest_indiv and include.manifest_indiv != '' %}
 <div id="osd" class="image-viewer"></div>
 <script defer src="{{ '/assets/openseadragon/openseadragon.min.js' | absolute_url }}"></script>
 <script>
   $(document).ready(function() {
-      var manifestUrl = "{{ include.manifest_indiv }}";
-      $.getJSON(manifestUrl, function(data) {
-          var tileSources = [{
-              tileSource: "{{ include.manifest_indiv }}" + '/info.json',
-              referenceStripThumbnailUrl: "{{ include.thumb }}"
-          }];
-      });
+      var imageServices = {{ include.manifest_indiv | jsonify }}.split('|');
       OpenSeadragon({
           id: "osd",
           preload: true,
           sequenceMode: true,
-          prefixUrl: "{{ '/assets/openseadragon/images/' | absolute_url }}",
-          tileSources: [{
-              tileSource: "{{ include.manifest_indiv }}" + '/info.json',
-              referenceStripThumbnailUrl: "{{ include.thumb }}"
-          }],
-          showReferenceStrip: true,
+          prefixUrl: {{ '/assets/openseadragon/images/' | absolute_url | jsonify }},
+          tileSources: imageServices.map(function(service) {
+              return {
+                  tileSource: service + '/info.json',
+                  referenceStripThumbnailUrl: service + '/full/!200,200/0/default.jpg'
+              };
+          }),
+          showReferenceStrip: imageServices.length > 1
       });
   });
 </script>
+{% else %}
+<p class="image-unavailable">An individual scan has not yet been linked to this entry.
+  <a href="https://digitalcollections.library.upenn.edu/items/dc71c7fc-63d6-40e0-908e-ba8930064eba">Browse the complete digitized scrapbook at Penn Libraries.</a>
+</p>
+{% endif %}

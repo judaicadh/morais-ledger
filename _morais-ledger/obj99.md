@@ -3,17 +3,19 @@ pid: obj99
 label: Hanuccah.
 publication: The Jewish Index
 location: Philadelphia
-full_date: " January 1, 1873"
+full_date: January 1, 1873
 month_day: 1-Jan
 volume-notes: no. 11
 year: '1873'
-full: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7442360--e709a1e8a9d681c9da9c6ef53549547ab787388913cd03064161d95d06161c24.jpeg/full/3500,/0/default.jpg
-thumb: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7442360--e709a1e8a9d681c9da9c6ef53549547ab787388913cd03064161d95d06161c24.jpeg/full/!200,200/0/default.jpg
+full: https://iiif-images.library.upenn.edu/iiif/2/3335ef3e-bc2f-4d6e-9eaf-bb08ee14d0a6/full/3500,/0/default.jpg
+thumb: https://iiif-images.library.upenn.edu/iiif/2/3335ef3e-bc2f-4d6e-9eaf-bb08ee14d0a6/full/!200,200/0/default.jpg
 index_terms: Hanuccah|Jewish Hospital of Cincinnati|Jewish Index, The
 toc: '113'
-manifest_all: https://colenda.library.upenn.edu/phalt/iiif/2/81431-p35d8nw83/manifest
-manifest_indiv: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7442360--e709a1e8a9d681c9da9c6ef53549547ab787388913cd03064161d95d06161c24.jpeg
+manifest_all: https://digitalrepository.library.upenn.edu/iiif/2/items/dc71c7fc-63d6-40e0-908e-ba8930064eba/manifest
+manifest_indiv: https://iiif-images.library.upenn.edu/iiif/2/3335ef3e-bc2f-4d6e-9eaf-bb08ee14d0a6
 order: '098'
 layout: qatar_item
 collection: morais-ledger
+pepper's pages: '58'
+pepper's links: https://iiif-images.library.upenn.edu/iiif/3/3335ef3e-bc2f-4d6e-9eaf-bb08ee14d0a6/info.json
 ---

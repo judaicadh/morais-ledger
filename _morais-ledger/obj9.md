@@ -3,18 +3,20 @@ pid: obj9
 label: A Protestant Jewish Church. Letter to the Editors of The Sunday Dispatch.
 publication: The Sunday Dispatch.
 location: Philadelphia
-full_date: " February 6, 1859"
+full_date: February 6, 1859
 month_day: 6-Feb
 volume-notes:
 year: '1859'
-full: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7910149--9d7596bb0ef6a27eb627c9157a26aa42ba6f73f6a0c39797699e8c26251efe96.jpeg/full/3500,/0/default.jpg
-thumb: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7910149--9d7596bb0ef6a27eb627c9157a26aa42ba6f73f6a0c39797699e8c26251efe96.jpeg/full/!200,200/0/default.jpg
+full: https://iiif-images.library.upenn.edu/iiif/2/5c72fe00-a114-468a-aee1-12c78bfcc186/full/3500,/0/default.jpg
+thumb: https://iiif-images.library.upenn.edu/iiif/2/5c72fe00-a114-468a-aee1-12c78bfcc186/full/!200,200/0/default.jpg
 index_terms: Holdheim, I.|Jerusalem|Rapoport, S.L.|Reform Judaism, (also "Neology"/"Gentilism")|Religion
   and Philosophy|Creeds and Opinions|Sachs, Dr.|Sunday Dispatch, The|Zunz, Leopold
 toc: '23'
-manifest_all: https://colenda.library.upenn.edu/phalt/iiif/2/81431-p35d8nw83/manifest
-manifest_indiv: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7910149--9d7596bb0ef6a27eb627c9157a26aa42ba6f73f6a0c39797699e8c26251efe96.jpeg
+manifest_all: https://digitalrepository.library.upenn.edu/iiif/2/items/dc71c7fc-63d6-40e0-908e-ba8930064eba/manifest
+manifest_indiv: https://iiif-images.library.upenn.edu/iiif/2/5c72fe00-a114-468a-aee1-12c78bfcc186
 order: '008'
 layout: qatar_item
 collection: morais-ledger
+pepper's pages: '10'
+pepper's links: https://iiif-images.library.upenn.edu/iiif/3/5c72fe00-a114-468a-aee1-12c78bfcc186/info.json
 ---

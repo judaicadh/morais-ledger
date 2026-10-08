@@ -4,17 +4,19 @@ label: Letter from Rev. S. Morais. Philadelphia, 18th January, 5620. To Rev. S.M
   Isaacs & Son.
 publication: The Jewish Messenger
 location: New York
-full_date: " January 27, 1860"
+full_date: January 27, 1860
 month_day: 27-Jan
 volume-notes:
 year: '1860'
-full: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s8323131--77039dd36b0bb1f52023aaa38136c6d2f3528ff067f54c176c21396113e223f6.jpeg/full/3500,/0/default.jpg
-thumb: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s8323131--77039dd36b0bb1f52023aaa38136c6d2f3528ff067f54c176c21396113e223f6.jpeg/full/!200,200/0/default.jpg
+full: https://iiif-images.library.upenn.edu/iiif/2/533c65fc-ee4c-4c42-ab14-e847c65b8ddb/full/3500,/0/default.jpg
+thumb: https://iiif-images.library.upenn.edu/iiif/2/533c65fc-ee4c-4c42-ab14-e847c65b8ddb/full/!200,200/0/default.jpg
 index_terms: Higher biblical criticism|Jewish Messenger|Luzzatto, S.D. Prof.
 toc: '30'
-manifest_all: https://colenda.library.upenn.edu/phalt/iiif/2/81431-p35d8nw83/manifest
-manifest_indiv: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s8323131--77039dd36b0bb1f52023aaa38136c6d2f3528ff067f54c176c21396113e223f6.jpeg
+manifest_all: https://digitalrepository.library.upenn.edu/iiif/2/items/dc71c7fc-63d6-40e0-908e-ba8930064eba/manifest
+manifest_indiv: https://iiif-images.library.upenn.edu/iiif/2/533c65fc-ee4c-4c42-ab14-e847c65b8ddb
 order: '015'
 layout: qatar_item
 collection: morais-ledger
+pepper's pages: '16'
+pepper's links: https://iiif-images.library.upenn.edu/iiif/3/533c65fc-ee4c-4c42-ab14-e847c65b8ddb/info.json
 ---

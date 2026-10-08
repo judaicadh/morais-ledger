@@ -3,18 +3,20 @@ pid: obj36
 label: The Hebrew Ritual.
 publication: The Jewish Messenger
 location: New York
-full_date: " April 12, 1867"
+full_date: April 12, 1867
 month_day: 12-Apr
 volume-notes:
 year: '1867'
-full: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7350901--da281065782474f00ba48b4f178e68a3ee8bc4f640deaf5e7725b445689f127d.jpeg/full/3500,/0/default.jpg
-thumb: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7350901--da281065782474f00ba48b4f178e68a3ee8bc4f640deaf5e7725b445689f127d.jpeg/full/!200,200/0/default.jpg
+full: https://iiif-images.library.upenn.edu/iiif/2/728f1449-e8ee-45ed-ba81-33dc2ed72206/full/3500,/0/default.jpg
+thumb: https://iiif-images.library.upenn.edu/iiif/2/728f1449-e8ee-45ed-ba81-33dc2ed72206/full/!200,200/0/default.jpg
 index_terms: Chorin, Aaron|Dukes family|Endelmann family|Jewish Messenger|Creating
   a unified American Rite|Rapoport, S.L.
 toc: '50'
-manifest_all: https://colenda.library.upenn.edu/phalt/iiif/2/81431-p35d8nw83/manifest
-manifest_indiv: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7350901--da281065782474f00ba48b4f178e68a3ee8bc4f640deaf5e7725b445689f127d.jpeg
+manifest_all: https://digitalrepository.library.upenn.edu/iiif/2/items/dc71c7fc-63d6-40e0-908e-ba8930064eba/manifest
+manifest_indiv: https://iiif-images.library.upenn.edu/iiif/2/728f1449-e8ee-45ed-ba81-33dc2ed72206
 order: '035'
 layout: qatar_item
 collection: morais-ledger
+pepper's pages: '30'
+pepper's links: https://iiif-images.library.upenn.edu/iiif/3/728f1449-e8ee-45ed-ba81-33dc2ed72206/info.json
 ---

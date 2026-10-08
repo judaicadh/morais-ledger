@@ -4,17 +4,19 @@ label: Hebrew. Sermon delivered by the Rev. S. Morais at the Synagogue, in Seven
   Street, below Arch.
 publication: The Philadelphia Inquirer
 location: Philadelphia
-full_date: " November 27, 1868"
+full_date: November 27, 1868
 month_day: 27-Nov
 volume-notes:
 year: '1868'
-full: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7438406--f0eb3ba4de1c6916c3296c9a2d3a6fa13783092b500a8104bed21ec96c7749ff.jpeg/full/3500,/0/default.jpg
-thumb: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7438406--f0eb3ba4de1c6916c3296c9a2d3a6fa13783092b500a8104bed21ec96c7749ff.jpeg/full/!200,200/0/default.jpg
+full: https://iiif-images.library.upenn.edu/iiif/2/2a349371-21fe-47e4-9eaa-9b0c33fa1f0d/full/3500,/0/default.jpg
+thumb: https://iiif-images.library.upenn.edu/iiif/2/2a349371-21fe-47e4-9eaa-9b0c33fa1f0d/full/!200,200/0/default.jpg
 index_terms: Disasters, natural & man-made|Pennsylvania, Governor of|Spain
 toc: '58'
-manifest_all: https://colenda.library.upenn.edu/phalt/iiif/2/81431-p35d8nw83/manifest
-manifest_indiv: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s7438406--f0eb3ba4de1c6916c3296c9a2d3a6fa13783092b500a8104bed21ec96c7749ff.jpeg
+manifest_all: https://digitalrepository.library.upenn.edu/iiif/2/items/dc71c7fc-63d6-40e0-908e-ba8930064eba/manifest
+manifest_indiv: https://iiif-images.library.upenn.edu/iiif/2/2a349371-21fe-47e4-9eaa-9b0c33fa1f0d
 order: '043'
 layout: qatar_item
 collection: morais-ledger
+pepper's pages: '36'
+pepper's links: https://iiif-images.library.upenn.edu/iiif/3/2a349371-21fe-47e4-9eaa-9b0c33fa1f0d/info.json
 ---

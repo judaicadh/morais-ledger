@@ -3,17 +3,19 @@ pid: obj29
 label: Hebrew. Address of Rev. S. Morais, at the Second Street Synagogue.
 publication: The Philadelphia Inquirer
 location: Philadelphia
-full_date: " April 20, 1865"
+full_date: April 20, 1865
 month_day: 20-Apr
 volume-notes:
 year: '1865'
-full: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s8952129--2e4a849f61c47141950a83b8f51f756a21b2d5d33a13fdd21b9271d46124b7a6.jpeg/full/3500,/0/default.jpg
-thumb: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s8952129--2e4a849f61c47141950a83b8f51f756a21b2d5d33a13fdd21b9271d46124b7a6.jpeg/full/!200,200/0/default.jpg
+full: https://iiif-images.library.upenn.edu/iiif/2/3db32411-80ec-4bb3-95b3-bf814e5e40c1/full/3500,/0/default.jpg
+thumb: https://iiif-images.library.upenn.edu/iiif/2/3db32411-80ec-4bb3-95b3-bf814e5e40c1/full/!200,200/0/default.jpg
 index_terms: Abolitionism|Confederacy, The|Everett|Lincoln, Abraham|Palestine|Quebec|Slavery
 toc: '43'
-manifest_all: https://colenda.library.upenn.edu/phalt/iiif/2/81431-p35d8nw83/manifest
-manifest_indiv: https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p35d8nw83%2FSHA256E-s8952129--2e4a849f61c47141950a83b8f51f756a21b2d5d33a13fdd21b9271d46124b7a6.jpeg
+manifest_all: https://digitalrepository.library.upenn.edu/iiif/2/items/dc71c7fc-63d6-40e0-908e-ba8930064eba/manifest
+manifest_indiv: https://iiif-images.library.upenn.edu/iiif/2/3db32411-80ec-4bb3-95b3-bf814e5e40c1
 order: '028'
 layout: qatar_item
 collection: morais-ledger
+pepper's pages: '24'
+pepper's links: https://iiif-images.library.upenn.edu/iiif/3/3db32411-80ec-4bb3-95b3-bf814e5e40c1/info.json
 ---

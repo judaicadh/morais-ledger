@@ -22,3 +22,19 @@ The national significance of this unique treasure is clearly evident, both in te
 
 # This is a Judaica Digital Humanities at the Penn Libraries repository.
 Judaica Digital Humanities at the <a href="http://library.upenn.edu">Penn Libraries</a> (also referred to as Judaica DH) is a robust program of projects and tools for experimental digital scholarship with Judaica collections, informed by digital humanities, Jewish studies, and cultural heritage approaches. Visit our [website](https://judaicadh.library.upenn.edu/).
+
+## Updating image data
+
+Item pages are checked in under `_morais-ledger`; changing the CSV alone does not
+update their front matter. To import a revised CSV and refresh those pages, download
+the current [Penn Libraries manifest](https://digitalrepository.library.upenn.edu/iiif/2/items/dc71c7fc-63d6-40e0-908e-ba8930064eba/manifest), then run:
+
+```sh
+ruby scripts/update-ledger-images.rb '/path/to/Morais Ledger - morais-ledger.csv' '/path/to/manifest.json'
+```
+
+The importer uses the CSV's `pepper's links` or matches `pepper's pages` against
+manifest canvas labels. It generates IIIF Image API 2 URLs supported by the bundled
+OpenSeadragon viewer. Multiple image services are separated by `|` in
+`manifest_indiv`. Entries without an explicit mapping link to the complete scrapbook;
+the `toc` value is an item number and must not be used as a scan number.
