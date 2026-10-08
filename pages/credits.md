@@ -22,7 +22,8 @@ For the Sabato Morais Digitization Project
 
 For the Site Migration and Redesign: 
 - **Arthur Kiron**: Project Director
-- **Emily Esten**: Project Manager
+- **Emily Esten**
+- **Laura Newman Eckstein**
 - **Mitch Fraas**:
 - **Dennis Mullen**:
 - **Andy Janco**:
