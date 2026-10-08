@@ -8,7 +8,7 @@ banner:
   height: '500px'
 ---
 
-![Portrait of Morais on a background of the table of contents of the Morais Ledger](/img/morais_img.jpeg)
+![Portrait of Morais on a background of the table of contents of the Morais Ledger]({{ '/img/morais_img.jpeg' | relative_url }})
 
 <p><b><a href="{{ '/about' | absolute_url }}">Learn</a></b> about Sabato Morais' personal scrapbook of newspaper clippings, pamphlets, circulars, and typescripts that he collected during his lifetime (1823-1897).</p>
 

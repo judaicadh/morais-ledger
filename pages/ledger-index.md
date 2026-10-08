@@ -15,5 +15,5 @@ permalink: /ledger-index/
  {% assign pagelink = "../morais-ledger/obj" %}
  <a href="{{ pagelink | append: val }}">{{ val }}</a>{% if forloop.last == true %}.{% else %}, {% endif %}  
  {% endfor %}
+ </p>
  {% endfor %}
-</p>
