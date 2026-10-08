@@ -40,8 +40,10 @@ CSV.open('_data/term_pids.csv', 'w', write_headers: true, headers: headers) do |
 end
 terms.each_with_index do |term, i|
   path = File.join('_index-headings', "#{term.fetch('pid')}.md")
-  body = File.exist?(path) ? File.read(path).split(/^---\s*$\n?/, 3)[2].to_s : ''
-  data = term.merge('order' => format('%04d', i + 1), 'layout' => 'generic_index_term', 'collection' => 'index-headings')
+  text = File.exist?(path) ? File.read(path).split(/^---\s*$\n?/, 3) : nil
+  body = text ? text[2].to_s : ''
+  previous_order = text ? YAML.safe_load(text[1])['order'] : nil
+  data = term.merge('order' => previous_order || format('%04d', i + 1), 'layout' => 'generic_index_term', 'collection' => 'index-headings')
   File.write(path, YAML.dump(data) + "---\n" + body)
 end
 search_path = 'search/index.json'
