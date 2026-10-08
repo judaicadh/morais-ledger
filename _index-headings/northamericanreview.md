@@ -4,7 +4,7 @@ term_no: term74
 pages: 197|421
 no_spaces: NorthAmericanReview
 pid: northamericanreview
-order: '0716'
+order: '0746'
 layout: generic_index_term
 collection: index-headings
 ---

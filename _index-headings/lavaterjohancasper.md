@@ -4,7 +4,7 @@ term_no: term696
 pages: '39'
 no_spaces: LavaterJohanCasper
 pid: lavaterjohancasper
-order: '0550'
+order: '0577'
 layout: generic_index_term
 collection: index-headings
 ---

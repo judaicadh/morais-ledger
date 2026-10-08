@@ -4,7 +4,7 @@ term_no: term119
 pages: 144|166
 no_spaces: JonesHoratioGates
 pid: joneshoratiogates
-order: '0495'
+order: '0521'
 layout: generic_index_term
 collection: index-headings
 ---

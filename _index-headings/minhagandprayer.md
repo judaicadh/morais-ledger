@@ -4,7 +4,7 @@ term_no: term982
 pages: '84'
 no_spaces: MinhagandPrayer
 pid: minhagandprayer
-order: '0659'
+order: '0688'
 layout: generic_index_term
 collection: index-headings
 ---

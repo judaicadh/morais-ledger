@@ -4,7 +4,7 @@ term_no: term82
 pages: '447'
 no_spaces: EliasofVilnaElijahVilnaGaon
 pid: eliasofvilnaelijahvilnagaon
-order: '0249'
+order: '0260'
 layout: generic_index_term
 collection: index-headings
 ---

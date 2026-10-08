@@ -4,7 +4,7 @@ term_no: term545
 pages: '26'
 no_spaces: DanteAlighieri
 pid: dantealighieri
-order: '0223'
+order: '0233'
 layout: generic_index_term
 collection: index-headings
 ---

@@ -4,7 +4,7 @@ term_no: term549
 pages: '249'
 no_spaces: SocietyoftheUnitedHebrewCharitiesofPhiladelphia
 pid: societyoftheunitedhebrewcharitiesofphiladelphia
-order: '0902'
+order: '0941'
 layout: generic_index_term
 collection: index-headings
 ---

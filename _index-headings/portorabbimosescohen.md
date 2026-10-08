@@ -4,7 +4,7 @@ term_no: term860
 pages: 192|197
 no_spaces: PortoRabbiMosesCohen
 pid: portorabbimosescohen
-order: '0781'
+order: '0813'
 layout: generic_index_term
 collection: index-headings
 ---

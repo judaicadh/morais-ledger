@@ -5,7 +5,7 @@ term_no: term855
 pages: '267'
 no_spaces: StoriadegliEbreiinSiciliapelDottorLZunztradottadaltedescodaPietroPerreau
 pid: storiadegliebreiinsiciliapeldottorlzunztradottadaltedescodapietroperreau
-order: '0932'
+order: '0972'
 layout: generic_index_term
 collection: index-headings
 ---

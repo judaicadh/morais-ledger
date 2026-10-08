@@ -4,7 +4,7 @@ term_no: term506
 pages: 780|793|803
 no_spaces: SpeakerHenryD
 pid: speakerhenryd
-order: '0919'
+order: '0959'
 layout: generic_index_term
 collection: index-headings
 ---

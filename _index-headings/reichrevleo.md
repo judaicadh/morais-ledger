@@ -4,7 +4,7 @@ term_no: term666
 pages: '549'
 no_spaces: ReichRevLeo
 pid: reichrevleo
-order: '0815'
+order: '0850'
 layout: generic_index_term
 collection: index-headings
 ---

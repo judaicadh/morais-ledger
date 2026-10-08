@@ -4,7 +4,7 @@ term_no: term819
 pages: '49'
 no_spaces: ArchivesIsralitesdeFrance
 pid: archivesisralitesdefrance
-order: '0052'
+order: '0056'
 layout: generic_index_term
 collection: index-headings
 ---

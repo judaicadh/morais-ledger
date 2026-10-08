@@ -4,7 +4,7 @@ term_no: term711
 pages: '35'
 no_spaces: HebrewReliefAssociation
 pid: hebrewreliefassociation
-order: '0400'
+order: '0419'
 layout: generic_index_term
 collection: index-headings
 ---

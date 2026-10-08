@@ -4,7 +4,7 @@ term_no: term974
 pages: 192|208
 no_spaces: BerlinIsaiahofBreslau
 pid: berlinisaiahofbreslau
-order: '0095'
+order: '0099'
 layout: generic_index_term
 collection: index-headings
 ---

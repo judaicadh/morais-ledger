@@ -4,7 +4,7 @@ term_no: term471
 pages: '704'
 no_spaces: VerdiGuiseppeofCasaleItaly
 pid: verdiguiseppeofcasaleitaly
-order: '0990'
+order: '1033'
 layout: generic_index_term
 collection: index-headings
 ---

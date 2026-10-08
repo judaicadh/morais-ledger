@@ -4,7 +4,7 @@ term_no: term627
 pages: '256'
 no_spaces: UnionofAmericanHebrewCongregations
 pid: unionofamericanhebrewcongregations
-order: '0981'
+order: '1023'
 layout: generic_index_term
 collection: index-headings
 ---

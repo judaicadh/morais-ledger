@@ -4,7 +4,7 @@ term_no: term729
 pages: '590'
 no_spaces: SoraniChiefRabbiofCuneoMoses
 pid: soranichiefrabbiofcuneomoses
-order: '0913'
+order: '0953'
 layout: generic_index_term
 collection: index-headings
 ---

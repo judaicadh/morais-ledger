@@ -4,7 +4,7 @@ term_no: term652
 pages: '155'
 no_spaces: YeedishGazetteThe
 pid: yeedishgazettethe
-order: '1026'
+order: '1071'
 layout: generic_index_term
 collection: index-headings
 ---

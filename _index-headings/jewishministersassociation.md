@@ -4,7 +4,7 @@ term_no: term1011
 pages: 520|594
 no_spaces: JewishMinistersAssociation
 pid: jewishministersassociation
-order: '0485'
+order: '0510'
 layout: generic_index_term
 collection: index-headings
 ---

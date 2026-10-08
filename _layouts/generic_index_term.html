@@ -14,14 +14,21 @@ layout: default
 <h3 alt="{{ page.label | escape }}" class='item-label'>Indexed as {{ page.label }}:</h3>
 
 <div class="results">
-{% assign relevant = site.morais-ledger | where_exp:"item", "item.index_terms contains page.label" %}
+{% assign relevant = "" | split: "|" %}
+{% for item in site.morais-ledger %}
+  {% assign item_terms = item.index_terms | split: "|" %}
+  {% if item_terms contains page.label %}
+    {% assign relevant = relevant | push: item %}
+  {% endif %}
+{% endfor %}
 <p>Displaying {{ relevant.size }} results</p>
 {% for post in relevant %}
 <p>
 <span class="title"><a href="{{ post.url | relative_url }}">{{ post.label }}</a></span>
 <br>
 <span class="meta">
-<b>publication</b>: {{ post.publication }} | <b>location</b>: {{ post.location }} | <b>full_date</b>: {{ post.full_date }} | <b>month_day</b>: {{ post.month_day }} | <b>volume_notes</b>: {{ post.volume_notes }} | <b>year</b>: {{ post.year }} | <b>index_terms</b>: {{ post.index-terms }} ...
+<b>Scrapbook page(s)</b>: {{ post["pepper's pages"] }}<br>
+<b>publication</b>: {{ post.publication }} | <b>location</b>: {{ post.location }} | <b>full_date</b>: {{ post.full_date }} | <b>month_day</b>: {{ post.month_day }} | <b>volume_notes</b>: {{ post.volume_notes }} | <b>year</b>: {{ post.year }} | <b>index_terms</b>: {{ post.index_terms }} ...
 </span>
 </p>
 {% endfor %}

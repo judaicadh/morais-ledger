@@ -4,7 +4,7 @@ term_no: term589
 pages: '277'
 no_spaces: Synodproposed
 pid: synodproposed
-order: '0943'
+order: '0984'
 layout: generic_index_term
 collection: index-headings
 ---

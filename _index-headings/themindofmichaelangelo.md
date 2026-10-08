@@ -4,7 +4,7 @@ term_no: term155
 pages: '359'
 no_spaces: TheMindofMichaelangelo
 pid: themindofmichaelangelo
-order: '0959'
+order: '1000'
 layout: generic_index_term
 collection: index-headings
 ---

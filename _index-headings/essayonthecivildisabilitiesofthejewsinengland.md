@@ -4,7 +4,7 @@ term_no: term183
 pages: '353'
 no_spaces: EssayontheCivilDisabilitiesoftheJewsinEngland
 pid: essayonthecivildisabilitiesofthejewsinengland
-order: '0268'
+order: '0280'
 layout: generic_index_term
 collection: index-headings
 ---

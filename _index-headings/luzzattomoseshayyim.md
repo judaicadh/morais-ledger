@@ -4,7 +4,7 @@ term_no: term898
 pages: '346'
 no_spaces: LuzzattoMosesHayyim
 pid: luzzattomoseshayyim
-order: '0605'
+order: '0632'
 layout: generic_index_term
 collection: index-headings
 ---

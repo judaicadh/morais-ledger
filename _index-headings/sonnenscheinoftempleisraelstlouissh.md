@@ -4,7 +4,7 @@ term_no: term266
 pages: 337|361|596|694
 no_spaces: SonnenscheinofTempleIsraelStLouisSH
 pid: sonnenscheinoftempleisraelstlouissh
-order: '0912'
+order: '0952'
 layout: generic_index_term
 collection: index-headings
 ---

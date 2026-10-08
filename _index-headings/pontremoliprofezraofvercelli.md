@@ -4,7 +4,7 @@ term_no: term733
 pages: '270'
 no_spaces: PontremoliProfEzraofVercelli
 pid: pontremoliprofezraofvercelli
-order: '0778'
+order: '0810'
 layout: generic_index_term
 collection: index-headings
 ---

@@ -5,7 +5,7 @@ term_no: term995
 pages: '788'
 no_spaces: TheJewishMethodofSlaughterComparedwithotherMethodsfromtheSanitarianHygienicandEconomicPointsofView
 pid: thejewishmethodofslaughtercomparedwithothermethodsfromthesanitarianhygienicandeconomicpointsofview
-order: '0957'
+order: '0998'
 layout: generic_index_term
 collection: index-headings
 ---

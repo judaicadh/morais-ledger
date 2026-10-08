@@ -19,5 +19,5 @@ order: '014'
 layout: qatar_item
 collection: morais-ledger
 pepper's pages: '15'
-pepper's links: https://iiif-images.library.upenn.edu/iiif/3/3ec5de6a-0a3c-4b57-968e-ce57ceb45433/info.json
+pepper's links: https://iiif-images.library.upenn.edu/iiif/3/1da0720f-7f58-4cf6-a46d-5e5675ab9322/info.json
 ---

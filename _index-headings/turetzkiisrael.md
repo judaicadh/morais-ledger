@@ -4,7 +4,7 @@ term_no: term400
 pages: '754'
 no_spaces: TuretzkiIsrael
 pid: turetzkiisrael
-order: '0978'
+order: '1019'
 layout: generic_index_term
 collection: index-headings
 ---

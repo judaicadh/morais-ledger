@@ -4,7 +4,7 @@ term_no: term905
 pages: '310'
 no_spaces: DeutschDr
 pid: deutschdr
-order: '0230'
+order: '0241'
 layout: generic_index_term
 collection: index-headings
 ---

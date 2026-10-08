@@ -4,7 +4,7 @@ term_no: term820
 pages: 11|12|13|14|15|241
 no_spaces: DiscourseontheResurrectionoftheDead
 pid: discourseontheresurrectionofthedead
-order: '0234'
+order: '0245'
 layout: generic_index_term
 collection: index-headings
 ---

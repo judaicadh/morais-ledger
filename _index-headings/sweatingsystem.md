@@ -4,7 +4,7 @@ term_no: term825
 pages: 785|786
 no_spaces: SweatingSystem
 pid: sweatingsystem
-order: '0940'
+order: '0980'
 layout: generic_index_term
 collection: index-headings
 ---

@@ -4,7 +4,7 @@ term_no: term1001
 pages: '583'
 no_spaces: HalberstamofBielitz
 pid: halberstamofbielitz
-order: '0367'
+order: '0384'
 layout: generic_index_term
 collection: index-headings
 ---

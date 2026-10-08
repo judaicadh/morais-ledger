@@ -44,3 +44,7 @@ CSV.open('_data/morais-ledger.csv', 'w', write_headers: true, headers: headers) 
   rows.each { |row| csv << headers.map { |header| row[header] } }
 end
 puts "Updated #{rows.length} records: #{mapped} with mapped scans, #{rows.length - mapped} without a supplied page mapping."
+
+# Keep the inverse index and search records synchronized with every import.
+require 'rbconfig'
+abort 'Topic index synchronization failed' unless system(RbConfig.ruby, File.join(__dir__, 'sync-ledger-index.rb'))

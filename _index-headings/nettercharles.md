@@ -4,7 +4,7 @@ term_no: term305
 pages: '254'
 no_spaces: NetterCharles
 pid: nettercharles
-order: '0700'
+order: '0730'
 layout: generic_index_term
 collection: index-headings
 ---

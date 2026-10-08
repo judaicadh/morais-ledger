@@ -4,7 +4,7 @@ term_no: term643
 pages: '686'
 no_spaces: HomeforAgedandInfirmIsraelites
 pid: homeforagedandinfirmisraelites
-order: '0430'
+order: '0451'
 layout: generic_index_term
 collection: index-headings
 ---

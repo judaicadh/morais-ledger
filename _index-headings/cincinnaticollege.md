@@ -4,7 +4,7 @@ term_no: term528
 pages: '157'
 no_spaces: CincinnatiCollege
 pid: cincinnaticollege
-order: '0170'
+order: '0179'
 layout: generic_index_term
 collection: index-headings
 ---

@@ -4,7 +4,7 @@ term_no: term877
 pages: '380'
 no_spaces: Channing
 pid: channing
-order: '0153'
+order: '0160'
 layout: generic_index_term
 collection: index-headings
 ---

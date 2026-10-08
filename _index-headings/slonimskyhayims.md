@@ -4,7 +4,7 @@ term_no: term563
 pages: '189'
 no_spaces: SlonimskyHayimS
 pid: slonimskyhayims
-order: '0893'
+order: '0932'
 layout: generic_index_term
 collection: index-headings
 ---

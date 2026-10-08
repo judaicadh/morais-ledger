@@ -4,7 +4,7 @@ term_no: term383
 pages: '217'
 no_spaces: TouroJudah
 pid: tourojudah
-order: '0969'
+order: '1010'
 layout: generic_index_term
 collection: index-headings
 ---

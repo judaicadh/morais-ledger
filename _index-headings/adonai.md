@@ -4,7 +4,7 @@ term_no: term633
 pages: '639'
 no_spaces: Adonai
 pid: adonai
-order: '0017'
+order: '0020'
 layout: generic_index_term
 collection: index-headings
 ---

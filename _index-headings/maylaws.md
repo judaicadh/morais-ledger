@@ -4,7 +4,7 @@ term_no: term553
 pages: '450'
 no_spaces: MayLaws
 pid: maylaws
-order: '0626'
+order: '0653'
 layout: generic_index_term
 collection: index-headings
 ---

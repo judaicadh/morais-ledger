@@ -4,7 +4,7 @@ term_no: term621
 pages: '105'
 no_spaces: ChizzukEmunah
 pid: chizzukemunah
-order: '0164'
+order: '0172'
 layout: generic_index_term
 collection: index-headings
 ---

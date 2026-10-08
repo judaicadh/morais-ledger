@@ -4,7 +4,7 @@ term_no: term704
 pages: 8|263|497|498|499
 no_spaces: JewishFosterHomeSocietyPhiladelphia
 pid: jewishfosterhomesocietyphiladelphia
-order: '0480'
+order: '0503'
 layout: generic_index_term
 collection: index-headings
 ---

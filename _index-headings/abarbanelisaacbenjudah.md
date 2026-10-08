@@ -4,7 +4,7 @@ term_no: term884
 pages: 3|574
 no_spaces: AbarbanelIsaacbenJudah
 pid: abarbanelisaacbenjudah
-order: '0002'
+order: '0004'
 layout: generic_index_term
 collection: index-headings
 ---

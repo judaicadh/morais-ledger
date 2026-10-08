@@ -4,7 +4,7 @@ term_no: term713
 pages: '359'
 no_spaces: TranslationandCriticismofthePsalms
 pid: translationandcriticismofthepsalms
-order: '0971'
+order: '1012'
 layout: generic_index_term
 collection: index-headings
 ---

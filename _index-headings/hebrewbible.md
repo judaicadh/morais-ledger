@@ -4,7 +4,7 @@ term_no: term655
 pages: '784'
 no_spaces: HebrewBible
 pid: hebrewbible
-order: '0391'
+order: '0408'
 layout: generic_index_term
 collection: index-headings
 ---

@@ -4,7 +4,7 @@ term_no: term901
 pages: 529|725
 no_spaces: ColensoJohnWilliam
 pid: colensojohnwilliam
-order: '0192'
+order: '0201'
 layout: generic_index_term
 collection: index-headings
 ---

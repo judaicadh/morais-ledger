@@ -4,7 +4,7 @@ term_no: term1022
 pages: '198'
 no_spaces: EliotGeorgeDanielDeronda
 pid: eliotgeorgedanielderonda
-order: '0250'
+order: '0261'
 layout: generic_index_term
 collection: index-headings
 ---

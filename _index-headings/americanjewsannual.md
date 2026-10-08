@@ -4,7 +4,7 @@ term_no: term300
 pages: '554'
 no_spaces: AmericanJewsAnnual
 pid: americanjewsannual
-order: '0032'
+order: '0036'
 layout: generic_index_term
 collection: index-headings
 ---

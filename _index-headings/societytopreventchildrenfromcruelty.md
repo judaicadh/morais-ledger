@@ -4,7 +4,7 @@ term_no: term348
 pages: '663'
 no_spaces: SocietytoPreventChildrenfromCruelty
 pid: societytopreventchildrenfromcruelty
-order: '0903'
+order: '0942'
 layout: generic_index_term
 collection: index-headings
 ---

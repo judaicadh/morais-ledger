@@ -4,7 +4,7 @@ term_no: term105
 pages: '184'
 no_spaces: SketchesofAngloJewishHistory
 pid: sketchesofanglojewishhistory
-order: '0890'
+order: '0928'
 layout: generic_index_term
 collection: index-headings
 ---

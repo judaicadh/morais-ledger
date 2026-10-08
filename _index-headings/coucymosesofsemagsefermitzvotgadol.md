@@ -4,7 +4,7 @@ term_no: term79
 pages: '360'
 no_spaces: CoucyMosesofSemagSeferMitzvotGadol
 pid: coucymosesofsemagsefermitzvotgadol
-order: '0207'
+order: '0217'
 layout: generic_index_term
 collection: index-headings
 ---

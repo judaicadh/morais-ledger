@@ -4,7 +4,7 @@ term_no: term23
 pages: '62'
 no_spaces: SolomonofMalachChiefRabbiofLeghorn
 pid: solomonofmalachchiefrabbiofleghorn
-order: '0909'
+order: '0949'
 layout: generic_index_term
 collection: index-headings
 ---

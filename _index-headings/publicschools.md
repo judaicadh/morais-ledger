@@ -4,7 +4,7 @@ term_no: term405
 pages: '575'
 no_spaces: Publicschools
 pid: publicschools
-order: '0794'
+order: '0829'
 layout: generic_index_term
 collection: index-headings
 ---

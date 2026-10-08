@@ -4,7 +4,7 @@ term_no: term944
 pages: 264|717
 no_spaces: GottheilGustavDr
 pid: gottheilgustavdr
-order: '0344'
+order: '0361'
 layout: generic_index_term
 collection: index-headings
 ---

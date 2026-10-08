@@ -4,7 +4,7 @@ term_no: term1030
 pages: '280'
 no_spaces: DayofAtonementpainting
 pid: dayofatonementpainting
-order: '0225'
+order: '0236'
 layout: generic_index_term
 collection: index-headings
 ---

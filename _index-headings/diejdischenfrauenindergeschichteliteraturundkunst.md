@@ -4,7 +4,7 @@ term_no: term146
 pages: '657'
 no_spaces: DiejdischenFraueninderGeschichteLiteraturundKunst
 pid: diejdischenfrauenindergeschichteliteraturundkunst
-order: '0232'
+order: '0243'
 layout: generic_index_term
 collection: index-headings
 ---

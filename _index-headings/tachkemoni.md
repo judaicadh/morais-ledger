@@ -4,7 +4,7 @@ term_no: term421
 pages: '111'
 no_spaces: Tachkemoni
 pid: tachkemoni
-order: '0945'
+order: '0986'
 layout: generic_index_term
 collection: index-headings
 ---

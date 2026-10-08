@@ -4,7 +4,7 @@ term_no: term697
 pages: '355'
 no_spaces: FrancisJosephEmperorofAustroHungary
 pid: francisjosephemperorofaustrohungary
-order: '0302'
+order: '0316'
 layout: generic_index_term
 collection: index-headings
 ---

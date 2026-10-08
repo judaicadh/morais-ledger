@@ -4,7 +4,7 @@ term_no: term1008
 pages: '594'
 no_spaces: SternofWashingtonRev
 pid: sternofwashingtonrev
-order: '0926'
+order: '0966'
 layout: generic_index_term
 collection: index-headings
 ---

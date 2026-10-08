@@ -4,7 +4,7 @@ term_no: term747
 pages: '382'
 no_spaces: TheTrefaBanquet
 pid: thetrefabanquet
-order: '0960'
+order: '1001'
 layout: generic_index_term
 collection: index-headings
 ---

@@ -38,3 +38,17 @@ using `pepper's links` only when page labels are absent. It generates IIIF Image
 OpenSeadragon viewer. Multiple image services are separated by `|` in
 `manifest_indiv`. Entries without an explicit mapping link to the complete scrapbook;
 the `toc` value is an item number and must not be used as a scan number.
+
+### Keeping topics aligned
+
+The image importer also runs `scripts/sync-ledger-index.rb`. The article CSV's
+pipe-separated `index_terms` are the source for the inverse topic table, topic
+headings and search records. `_data/term_pids.csv` stores article ID suffixes in
+its historical `pages` field; the Index page resolves those articles and shows
+their actual `pepper's pages` labels. Topic results use exact terms.
+
+Validate the imported records, inverse index, headings, search and image mappings:
+
+```sh
+ruby scripts/validate-ledger-index.rb MANIFEST.json
+```

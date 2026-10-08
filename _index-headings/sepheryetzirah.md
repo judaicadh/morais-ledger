@@ -4,7 +4,7 @@ term_no: term673
 pages: '111'
 no_spaces: SepherYetzirah
 pid: sepheryetzirah
-order: '0875'
+order: '0912'
 layout: generic_index_term
 collection: index-headings
 ---

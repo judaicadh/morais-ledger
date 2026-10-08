@@ -3,17 +3,17 @@ layout: page
 title: Index
 permalink: /ledger-index/
 ---
- 
- Select the term to view a list of items associated with that term, or select a number to go directly to the page. 
- 
- {% for term in site.data.term_pids %}
-  {% assign termlink = "../index-headings/" %}
- <p>
- <a href="{{ termlink | append: term.pid }}">{{ term.label }}</a> can be found on page(s) 
- {% assign values = term.pages | split: "|"  %}
- {% for val in values %}
- {% assign pagelink = "../morais-ledger/obj" %}
- <a href="{{ pagelink | append: val }}">{{ val }}</a>{% if forloop.last == true %}.{% else %}, {% endif %}  
- {% endfor %}
- </p>
- {% endfor %}
+
+Select a term to see its articles, or a scrapbook page number to open the corresponding article. Several articles may share a scrapbook page.
+
+{% for term in site.data.term_pids %}
+<p>
+<a href="{{ '/index-headings/' | append: term.pid | relative_url }}">{{ term.label | escape }}</a> can be found on scrapbook page(s)
+{% assign values = term.pages | split: "|" %}
+{% for val in values %}
+  {% assign item_pid = "obj" | append: val %}
+  {% assign item = site.morais-ledger | where: "pid", item_pid | first %}
+  <a href="{{ item.url | relative_url }}" title="{{ item.label | escape }}">{{ item["pepper's pages"] }}</a>{% if forloop.last %}.{% else %}; {% endif %}
+{% endfor %}
+</p>
+{% endfor %}

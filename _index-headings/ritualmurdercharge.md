@@ -4,7 +4,7 @@ term_no: term181
 pages: '316'
 no_spaces: RitualMurderCharge
 pid: ritualmurdercharge
-order: '0823'
+order: '0859'
 layout: generic_index_term
 collection: index-headings
 ---

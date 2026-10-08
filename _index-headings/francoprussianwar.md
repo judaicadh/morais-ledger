@@ -4,7 +4,7 @@ term_no: term167
 pages: 57|61
 no_spaces: FrancoPrussianWar
 pid: francoprussianwar
-order: '0304'
+order: '0318'
 layout: generic_index_term
 collection: index-headings
 ---

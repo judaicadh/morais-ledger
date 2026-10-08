@@ -4,7 +4,7 @@ term_no: term463
 pages: '405'
 no_spaces: Messianicfaith
 pid: messianicfaith
-order: '0648'
+order: '0677'
 layout: generic_index_term
 collection: index-headings
 ---

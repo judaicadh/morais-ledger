@@ -4,7 +4,7 @@ term_no: term647
 pages: '249'
 no_spaces: FemaleBeneficialSociety
 pid: femalebeneficialsociety
-order: '0280'
+order: '0293'
 layout: generic_index_term
 collection: index-headings
 ---

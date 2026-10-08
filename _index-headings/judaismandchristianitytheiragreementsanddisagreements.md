@@ -4,7 +4,7 @@ term_no: term204
 pages: '356'
 no_spaces: JudaismandChristianityTheirAgreementsandDisagreements
 pid: judaismandchristianitytheiragreementsanddisagreements
-order: '0500'
+order: '0526'
 layout: generic_index_term
 collection: index-headings
 ---

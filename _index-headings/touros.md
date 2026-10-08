@@ -4,7 +4,7 @@ term_no: term971
 pages: 37|142
 no_spaces: Touros
 pid: touros
-order: '0970'
+order: '1011'
 layout: generic_index_term
 collection: index-headings
 ---

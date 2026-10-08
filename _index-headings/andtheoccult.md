@@ -4,7 +4,7 @@ term_no: term926
 pages: '56'
 no_spaces: andtheOccult
 pid: andtheoccult
-order: '0042'
+order: '0046'
 layout: generic_index_term
 collection: index-headings
 ---

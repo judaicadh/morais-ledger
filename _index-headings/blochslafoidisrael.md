@@ -4,7 +4,7 @@ term_no: term756
 pages: '276'
 no_spaces: BlochSLaFoidIsrael
 pid: blochslafoidisrael
-order: '0106'
+order: '0111'
 layout: generic_index_term
 collection: index-headings
 ---
