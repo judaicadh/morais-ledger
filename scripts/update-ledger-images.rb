@@ -23,7 +23,7 @@ rows.each do |row|
     url.sub(%r{/info\.json\z}, '').sub('/iiif/3/', '/iiif/2/')
   end
   page_services = pages.map { |label| services.fetch(label) }
-  links = page_services if links.empty?
+  links = page_services unless page_services.empty?
   abort "Unrecognized service for #{row['pid']}" unless (links - known_services).empty?
   mapped += 1 unless links.empty?
   first = links.first.to_s

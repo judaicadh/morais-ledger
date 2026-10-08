@@ -33,8 +33,8 @@ the current [Penn Libraries manifest](https://digitalrepository.library.upenn.ed
 ruby scripts/update-ledger-images.rb '/path/to/Morais Ledger - morais-ledger.csv' '/path/to/manifest.json'
 ```
 
-The importer uses the CSV's `pepper's links` or matches `pepper's pages` against
-manifest canvas labels. It generates IIIF Image API 2 URLs supported by the bundled
+The importer matches the CSV's `pepper's pages` against manifest canvas labels,
+using `pepper's links` only when page labels are absent. It generates IIIF Image API 2 URLs supported by the bundled
 OpenSeadragon viewer. Multiple image services are separated by `|` in
 `manifest_indiv`. Entries without an explicit mapping link to the complete scrapbook;
 the `toc` value is an item number and must not be used as a scan number.
