@@ -1,0 +1,10 @@
+/* Decorative background: the ledger's first handwritten contents page, Penn Libraries. */
+body{background-color:var(--paper);background-image:linear-gradient(#f4efeeee,#f4efeeee),url('assets/ledger-contents.jpg');background-size:auto,1100px auto;background-position:center top;background-attachment:fixed}
+header{background:#f4efeef5}
+.hero{background-image:linear-gradient(90deg,#f4efee 0%,#f4efeefa 38%,#f4efeed9 58%,#f4efee55 100%),url('assets/ledger-contents.jpg');background-size:auto,120% auto;background-position:center,center 8%;padding-left:24px;padding-right:24px;margin-left:-24px;margin-right:-24px;border-bottom:1px solid var(--taupe)}
+.hero:after{display:none}
+.hero h1,.hero .lead,.hero .context{position:relative}
+.section{background:#f4efeef2}.status{margin-top:28px}
+.reader-main{background:#f4efeef2}.reader-heading{padding:18px 20px;background-image:linear-gradient(90deg,#f4efeefa 0%,#f4efeeed 48%,#f4efee66 100%),url('assets/ledger-contents.jpg');background-size:auto,120% auto;background-position:center,center 5%;border-bottom:1px solid var(--line)}
+footer{background-color:var(--accent);background-image:linear-gradient(#7a4825ee,#7a4825ee),url('assets/ledger-contents.jpg');background-size:cover;background-position:center 28%}
+@media(max-width:680px){body{background-size:auto,750px auto;background-attachment:scroll}.hero{background-image:linear-gradient(90deg,#f4efeef5,#f4efeecc),url('assets/ledger-contents.jpg');background-position:center,center top;padding-left:16px;padding-right:16px;margin-left:-16px;margin-right:-16px}.reader-heading{padding:14px 12px;background-image:linear-gradient(90deg,#f4efeef5,#f4efeecc),url('assets/ledger-contents.jpg')}}
